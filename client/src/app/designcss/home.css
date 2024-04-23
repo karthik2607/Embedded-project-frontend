@@ -1,0 +1,60 @@
+/* styles/HomePage.css */
+.background {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #000;
+    background-image: url('/Homebg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-item, .nav-user {
+    color: #000;
+    text-decoration: none;
+    margin-right: 2rem;
+  }
+  
+  .nav-user {
+    margin-left: auto;
+    background: #007bff;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .map-section {
+    height: 50%; /* Adjust based on your layout */
+    width: 100%;
+    /* Placeholder for the map - use an actual map component or iframe */
+    background: url('/path-to-your-map-placeholder.png') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .account-balance {
+    text-align: center;
+  }
+  
+  .balance {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
