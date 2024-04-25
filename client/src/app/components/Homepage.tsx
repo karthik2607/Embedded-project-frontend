@@ -14,15 +14,23 @@ const HomePage = () => {
         <div className="nav-user">Username</div>
       </nav>
 
-      <main className="main-content">
-        <section className="map-section">
-          {/* The map component goes here. You might use a library like react-google-maps */}
-        </section>
-        <section className="account-balance">
-          <h1>Account Balance</h1>
-          <span className="balance">₹ 9000</span>
-        </section>
-      </main>
+      <div className="main-content">
+        <div className="maindiv">
+        <div>
+          <img className="image1"src="./Rectangle 4.png"></img>
+          </div>
+          
+        <div className='accountdiv'>
+          <div className='repark'><img src="./image.png"></img></div>
+        <div className="account-balance">
+            Account Balance
+            
+            <div className='amt'>₹ 9000</div>
+        </div>
+        </div>
+        
+      </div>
+      </div>
       </div>
     </div>
   );
